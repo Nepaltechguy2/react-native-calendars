@@ -311,7 +311,7 @@ class CalendarList extends Component {
           getItemLayout={this.getItemLayout}
           scrollsToTop={this.props.scrollsToTop}
           style={{
-            paddingTop: 10
+            marginTop: -20
           }}
         />
         {this.renderStaticHeader()}
